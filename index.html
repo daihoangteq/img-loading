@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100%;
+            height: 210px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .imgItem {
+            width: 200px;
+            height: 200px;
+            background-color: gray;
+            object-fit: cover;
+        }
+        .noti {
+            width: 100%;
+            color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img class="imgItem" src="https://i.pinimg.com/550x/cb/33/49/cb3349b86ca661ca61ae9a36d88d70d4.jpg" alt="img-1" onload="loaded()">
+            <img class="imgItem" src="https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="img-2" onload="loaded()">
+            <img class="imgItem" src="https://images.pexels.com/photos/464321/pexels-photo-464321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="img-2" onload="loaded()">
+            <img class="imgItem" src="https://images.pexels.com/photos/325044/pexels-photo-325044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="img-2" onload="loaded()">
+        </div>
+        <div class="noti">Not done</div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
